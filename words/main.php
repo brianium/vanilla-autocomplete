@@ -1,4 +1,10 @@
 <?php
+/**
+ * The main handler for the server. Creates a dictionary out of the file
+ * wordTest.txt. This server responds to requests at /words/[A-Za-z]+
+ * The server will respond with a comma separated list of words beginning with the 
+ * stem passed to /words (i.e /words/ab)
+ */
 require_once 'response.php';
 
 $uri = $_SERVER['REQUEST_URI'];

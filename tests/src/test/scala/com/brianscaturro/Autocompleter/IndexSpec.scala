@@ -16,6 +16,7 @@ abstract class IndexSpec extends FlatSpec with ShouldMatchers
   implicit val webDriver: WebDriver
 
   override def beforeEach(configMap: Map[String, Any]) {
+    //some odd behaviour with the Page trait - must investigate
     go to "localhost:8080"
   }
 
@@ -112,12 +113,7 @@ abstract class IndexSpec extends FlatSpec with ShouldMatchers
     paras.exists(_.text == "zygomaxillary") should be(true)
   }
 
-  /**
-   * This wasn't covered in the spec, but this is the behavior
-   * in more popular autocomplete tools that don't use a delimiter
-   * like comma. I figured if this is the behavior I am implementing,
-   * then I make an assertion
-   */
+  //maybe if delimiters were implemented (one, two, three)
   "autocomplete mode" should "not be enabled between words" in {
     IndexPage.input.value ="first second"
     (1 to 7).foreach(i => IndexPage.input.underlying.sendKeys(Keys.ARROW_LEFT))
