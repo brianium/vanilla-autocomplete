@@ -20,4 +20,4 @@ Running The Tests
 =================
 First make sure the server is running via `bin/server`.
 
-The tests are written using ScalaTest and the Selenium DSL. If you have sbt installed, you can run the tests by switching to the tests directory and running `sbt test`.
+The tests are written using ScalaTest and the Selenium DSL. The scala project is located in the `tests` directory. If you have sbt installed, you can run the tests by switching to the tests directory and running `sbt test`.
