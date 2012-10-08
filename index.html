@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Ajax Web Page</title>
+    <style type="text/css">
+    /** A tiny visual hint **/
+    .auto {
+        background:#efefef;
+    }
+
+    #matches p {
+        cursor:pointer;
+    }
+
+    #input {
+        border:1px solid #444;
+        font-size:22px;
+        padding:5px;
+        width: 500px;
+    }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <form action="" method="post" autocomplete="off">
+        <p>
+            <input type="text" name="input" id="input">
+        </p>
+        <p class="submit">
+            <input type="submit" id="submit" value="submit">
+        </p>
+    </form>
+    Matches:
+    <div id="matches">
+        
+    </div>
+</div>
+<script type="text/javascript" src="scripts/httpclient.js"></script>
+<script type="text/javascript" src="scripts/keymap.js"></script>
+<script type="text/javascript" src="scripts/richinput.js"></script>
+<script type="text/javascript" src="scripts/matcher.js"></script>
+<script type="text/javascript" src="scripts/words.js"></script>
+</body>
+</html>

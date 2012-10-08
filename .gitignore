@@ -1,0 +1,8 @@
+vanilla-autocomplete.sublime-project
+vanilla-autocomplete.sublime-workspace
+tests/.idea
+tests/.idea_modules
+tests/target
+tests/chromedriver.log
+tests/project/project
+tests/project/target
