@@ -24,3 +24,5 @@ The tests are written using ScalaTest and the Selenium DSL. The scala project is
 
 ### A Note On Chrome Testing ###
 The Chrome browser requires a bit of extra work to get up and running. It is pretty easy, and the directions for doing so can be found on the [Selenium wiki](http://code.google.com/p/selenium/wiki/ChromeDriver)
+
+Tested using Chrome 22.0.1229.79 and Firefox 15.0.1 on Ubuntu 12.04 and Mac OS X 10.7.5 (Lion)
