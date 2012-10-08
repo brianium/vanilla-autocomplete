@@ -6,3 +6,4 @@ tests/target
 tests/chromedriver.log
 tests/project/project
 tests/project/target
+tests/:
