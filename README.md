@@ -18,4 +18,6 @@ The server makes use of the built-in server provided by PHP 5.4. In order to run
 
 Running The Tests
 =================
+First make sure the server is running via `bin/server`.
+
 The tests are written using ScalaTest and the Selenium DSL. If you have sbt installed, you can run the tests by switching to the tests directory and running `sbt test`.
