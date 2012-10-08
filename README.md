@@ -21,3 +21,6 @@ Running The Tests
 First make sure the server is running via `bin/server`.
 
 The tests are written using ScalaTest and the Selenium DSL. The scala project is located in the `tests` directory. If you have sbt installed, you can run the tests by switching to the tests directory and running `sbt test`.
+
+### A Note On Chrome Testing ###
+The Chrome browser requires a bit of extra work to get up and running. It is pretty easy, and the directions for doing so can be found on the [Selenium wiki](http://code.google.com/p/selenium/wiki/ChromeDriver)
