@@ -1,4 +1,4 @@
-name := "Autocomplete Tests for Art & Logic"
+name := "Autocomplete Tests"
 
 version := "0.0.1"
 
