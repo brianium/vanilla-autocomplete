@@ -5,8 +5,6 @@ import org.scalatest.matchers.ShouldMatchers
 import org.scalatest.selenium.WebBrowser
 import org.openqa.selenium.{Keys, WebDriver}
 import org.scalatest.time.{Seconds, Span}
-import org.openqa.selenium.htmlunit.HtmlUnitDriver
-import org.openqa.selenium.interactions.Actions
 
 abstract class IndexSpec extends FlatSpec with ShouldMatchers
   with WebBrowser

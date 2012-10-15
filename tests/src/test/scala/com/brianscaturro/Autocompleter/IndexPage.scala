@@ -1,6 +1,6 @@
 package com.brianscaturro.Autocompleter
 
-import org.openqa.selenium.{Keys, WebElement, By, WebDriver}
+import org.openqa.selenium.{Keys, WebDriver}
 import org.scalatest.selenium.WebBrowser
 import org.openqa.selenium.interactions.Actions
 
